@@ -8,7 +8,7 @@ export class App extends React.Component{
             <div id="main">
                 <Header title="React App" />
                <div>{this.props.children}</div>
-                <Footer year={2018} company="React Webpack Application Sample" />
+                <Footer year={2019} company="eXperience Technology Meetup" />
             </div>
         )
     }

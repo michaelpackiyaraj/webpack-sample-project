@@ -1,0 +1,9 @@
+webpackJsonp([0],[
+/* 0 */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed: Error: Couldn't find preset \"stage-0\" relative to directory \"C:\\\\Michael\\\\meetups\\\\demo\\\\src\"\n    at C:\\Michael\\meetups\\demo\\node_modules\\babel-core\\lib\\transformation\\file\\options\\option-manager.js:293:19\n    at Array.map (<anonymous>)\n    at OptionManager.resolvePresets (C:\\Michael\\meetups\\demo\\node_modules\\babel-core\\lib\\transformation\\file\\options\\option-manager.js:275:20)\n    at OptionManager.mergePresets (C:\\Michael\\meetups\\demo\\node_modules\\babel-core\\lib\\transformation\\file\\options\\option-manager.js:264:10)\n    at OptionManager.mergeOptions (C:\\Michael\\meetups\\demo\\node_modules\\babel-core\\lib\\transformation\\file\\options\\option-manager.js:249:14)\n    at OptionManager.init (C:\\Michael\\meetups\\demo\\node_modules\\babel-core\\lib\\transformation\\file\\options\\option-manager.js:368:12)\n    at File.initOptions (C:\\Michael\\meetups\\demo\\node_modules\\babel-core\\lib\\transformation\\file\\index.js:212:65)\n    at new File (C:\\Michael\\meetups\\demo\\node_modules\\babel-core\\lib\\transformation\\file\\index.js:135:24)\n    at Pipeline.transform (C:\\Michael\\meetups\\demo\\node_modules\\babel-core\\lib\\transformation\\pipeline.js:46:16)\n    at transpile (C:\\Michael\\meetups\\demo\\node_modules\\babel-loader\\lib\\index.js:50:20)\n    at Object.module.exports (C:\\Michael\\meetups\\demo\\node_modules\\babel-loader\\lib\\index.js:173:20)");
+
+/***/ })
+],[0]);
+//# sourceMappingURL=bundle.29efb80c92af3f4451d3.js.map

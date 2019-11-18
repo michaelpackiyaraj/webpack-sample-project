@@ -20,17 +20,23 @@ var config = {
     //publicPath: '/'
   },
  
-
-  module : {
-    loaders : [
+  module: {
+    rules: [
       {
-        test : /\.js?/,
+        test: /\.js?$/,
         include : APP_DIR,
-        loaders: [ "babel-loader"]
-      },
- 
+        loader: 'babel-loader',
+        exclude: /node_modules/,
+        options: {
+          presets: [
+            'react',
+            'es2015'
+          ]
+        }
+      }
     ]
   },
+
   plugins:[
       new webpack.optimize.CommonsChunkPlugin({
         name: 'vendor',

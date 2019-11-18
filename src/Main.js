@@ -1,9 +1,11 @@
 //bootstrapping
-import {render} from "react-dom";
+import ReactDOM from 'react-dom';
 import React from "react";
 
 import Routes from "./app/Routes";
 
-render(<Routes />,
-    document.getElementById("root")
-)
+const { registerObserver } = require('react-perf-devtool');
+registerObserver();
+
+
+ReactDOM.render(<Routes />, document.getElementById('root'));

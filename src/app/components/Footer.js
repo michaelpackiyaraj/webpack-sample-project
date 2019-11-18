@@ -19,6 +19,6 @@ Footer.PropTypes = {
 }
 
 Footer.defaultProps = {
-    year:2018,
+    year:2019,
     company:"React webpack Application"
 }
