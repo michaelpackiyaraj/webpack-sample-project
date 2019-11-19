@@ -15,7 +15,8 @@ export default class Header extends Component{
                     <NavLink to ="/about" className="button" activeClassName="success">About</NavLink>
                     <NavLink to ="/contact" className="button" activeClassName="success">Contact</NavLink>
                     <NavLink to ="/colors" className="button" activeClassName="success">Color Pallete</NavLink>
-
+                    <NavLink to ="/virtualized" className="button" activeClassName="success">Virtualized</NavLink>
+                    <NavLink to ="/novirtualized" className="button" activeClassName="success">!Virtualized</NavLink>
                 </div>
             </div>
         )

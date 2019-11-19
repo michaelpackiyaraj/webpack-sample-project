@@ -30,7 +30,8 @@ var config = {
         options: {
           presets: [
             'react',
-            'es2015'
+            'es2015',
+            '@babel/preset-env'
           ]
         }
       }
@@ -60,7 +61,7 @@ var config = {
   devServer: {
     contentBase: APP_DIR,
     compress: true,
-    port: 8080,
+    port: 2019,
 
     historyApiFallback: {
       index: '/'
